@@ -6,3 +6,8 @@ source ./config.sh
 # python
 
 # pip
+
+# node manager
+brew install npm
+sudo chown -R `whoami` ~/.npm 
+sudo chown -R `whoami` /usr/local/lib/node_modules
